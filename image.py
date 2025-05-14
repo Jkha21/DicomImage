@@ -190,7 +190,7 @@ if __name__ == "__main__":
     # This is useful if you have multiple .dcm files and aren't sure which are the image files.
     # The script will process all .dcm files found, skipping those without pixel data
     # and extracting images from those that do.
-    dicom_folder_path = "C:\\Users\\hkuma\\OneDrive\\Documents\\image" # <<< CHANGE THIS
+    dicom_folder_path = "path of file" # <<< CHANGE THIS
 
     if not os.path.isdir(dicom_folder_path):
         print(f"Error: The specified folder does not exist: {dicom_folder_path}")
